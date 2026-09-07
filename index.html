@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фактор права — экспертно-правовой центр</title>
+<meta name="description" content="ООО Экспертно-правовой центр «Фактор права» — 22 вида судебных и досудебных экспертиз, правовое сопровождение, заключения для суда и следствия.">
+<link rel="icon" href="images/logo-black.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="images/logo-white.png" alt="Фактор права">
+      <span class="brand-text"><strong>Фактор права</strong><span>Экспертно-правовой центр</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" aria-current="page">Главная</a>
+      <a href="services.html">Экспертизы и услуги</a>
+      <a href="about.html">О компании</a>
+      <a href="reviews.html">Отзывы и партнёры</a>
+      <a href="contacts.html">Контакты</a>
+      <button class="btn btn-seal nav-cta" data-open-call>Заказать звонок</button>
+    </nav>
+    <div class="header-actions">
+      <div class="header-phone">
+        <small>Звонок по России бесплатный</small>
+        +7 (000) 000-00-00
+      </div>
+      <button class="btn btn-seal" data-open-call>Заказать звонок</button>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-motif" aria-hidden="true">
+    <svg width="620" height="620" viewBox="0 0 620 620" style="position:absolute; right:-60px; top:-40px;">
+      <g fill="none" stroke="#9C7A2E" stroke-width="2">
+        <path d="M470 560 C 430 460, 420 340, 470 230 C 500 260, 515 300, 512 340" />
+        <path d="M470 560 C 430 460, 420 340, 470 230" stroke-width="1"/>
+        <ellipse cx="452" cy="500" rx="10" ry="22" transform="rotate(-30 452 500)"/>
+        <ellipse cx="435" cy="440" rx="10" ry="22" transform="rotate(-38 435 440)"/>
+        <ellipse cx="425" cy="375" rx="10" ry="22" transform="rotate(-46 425 375)"/>
+        <ellipse cx="430" cy="310" rx="10" ry="22" transform="rotate(-58 430 310)"/>
+        <ellipse cx="452" cy="255" rx="9" ry="20" transform="rotate(-70 452 255)"/>
+        <path d="M150 560 C 190 460, 200 340, 150 230 C 120 260, 105 300, 108 340" />
+        <ellipse cx="168" cy="500" rx="10" ry="22" transform="rotate(30 168 500)"/>
+        <ellipse cx="185" cy="440" rx="10" ry="22" transform="rotate(38 185 440)"/>
+        <ellipse cx="195" cy="375" rx="10" ry="22" transform="rotate(46 195 375)"/>
+        <ellipse cx="190" cy="310" rx="10" ry="22" transform="rotate(58 190 310)"/>
+        <ellipse cx="168" cy="255" rx="9" ry="20" transform="rotate(70 168 255)"/>
+        <line x1="310" y1="140" x2="310" y2="580" stroke-width="1"/>
+        <path d="M270 140 h80 M280 100 h60 M290 60 h40" stroke-width="2"/>
+        <polygon points="310,10 316,28 335,28 320,39 325,58 310,46 295,58 300,39 285,28 304,28" fill="#9C7A2E" stroke="none"/>
+      </g>
+    </svg>
+  </div>
+  <div class="container hero-inner">
+    <div>
+      <div class="hero-kicker"><span class="rule"></span>ООО Экспертно-правовой центр «Фактор права»</div>
+      <h1>Экспертное заключение, которому доверяют суд и оппонент</h1>
+      <p class="hero-lede">Проводим правовые, лингвистические, технические, финансовые и иные экспертизы, готовим правовую позицию и сопровождаем заказчика от постановки вопросов эксперту до дачи пояснений в суде.</p>
+      <div class="hero-cta">
+        <a href="services.html" class="btn btn-primary">Смотреть экспертизы и услуги</a>
+        <button class="btn btn-outline-light" data-open-call>Задать вопрос эксперту</button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b data-counter="22">0</b><span>вида экспертиз</span></div>
+        <div class="hero-stat"><b>ГПК · УПК · АПК</b><span>заключения по всем формам процесса</span></div>
+        <div class="hero-stat"><b>73-ФЗ</b><span>соответствие требованиям закона</span></div>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <h3>Свяжемся в течение рабочего дня</h3>
+      <p>Опишите ситуацию — подскажем, какая экспертиза нужна, и что для неё потребуется.</p>
+      <form data-demo-form>
+        <div class="field"><label for="h-name">Имя</label><input id="h-name" name="name" type="text" required placeholder="Как к вам обращаться"></div>
+        <div class="field"><label for="h-phone">Телефон</label><input id="h-phone" name="phone" type="tel" required placeholder="+7 ("></div>
+        <button class="btn btn-seal btn-block" type="submit">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+        <div class="form-success"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>Направления работы</h2>
+      <p class="section-lede">Правовое сопровождение и 22 вида экспертиз, объединённые в несколько практических направлений.</p>
+    </div>
+    <div class="directions-grid">
+
+      <a class="direction-card" href="services.html#pravovye">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M5 8l-3 6a4 4 0 0 0 8 0l-3-6h-2Zm14 0l-3 6a4 4 0 0 0 8 0l-3-6h-2ZM4 8h6M14 8h6M9 3h6"/></svg>
+        </span>
+        <h3>Правовые экспертизы</h3>
+        <p>Договоры, нормативные акты, корпоративные документы, судебные материалы.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+      <a class="direction-card" href="services.html#lingvo">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v12H8l-4 4V4Z"/><path d="M8 9h8M8 12h5"/></svg>
+        </span>
+        <h3>Лингвистика и психология</h3>
+        <p>Тексты, авторство, воздействие на аудиторию, честь и деловая репутация.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+      <a class="direction-card" href="services.html#is">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="5"/><path d="M9 12.5 7 21l5-3 5 3-2-8.5"/></svg>
+        </span>
+        <h3>Интеллектуальная собственность</h3>
+        <p>Товарные знаки, авторство, оригинальность материалов.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+      <a class="direction-card" href="services.html#tech">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20h8M12 16v4"/></svg>
+        </span>
+        <h3>Техническая и криминалистическая</h3>
+        <p>Документы, почерк, фото, видео и звукозаписи, компьютерные носители.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+      <a class="direction-card" href="services.html#auto-fire">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13l2-5a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 5v5H3v-5Z"/><circle cx="7.5" cy="18" r="1.5"/><circle cx="16.5" cy="18" r="1.5"/></svg>
+        </span>
+        <h3>ДТП, пожары, строительство</h3>
+        <p>Автотехническая, пожарно-техническая и строительно-техническая экспертизы.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+      <a class="direction-card" href="services.html#finance">
+        <span class="icon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 14l4-5 3 3 5-7"/></svg>
+        </span>
+        <h3>Финансы и оценка</h3>
+        <p>Финансово-экономическая экспертиза и оценка активов, бизнеса, имущества.</p>
+        <span class="go">Подробнее →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-dark">
+  <div class="container">
+    <div class="section-head">
+      <h2>Почему обращаются к нам</h2>
+      <p class="section-lede">Мы не просто проводим исследование — мы выстраиваем вокруг заключения полноценную правовую позицию.</p>
+    </div>
+    <div class="advantages">
+      <div class="advantage">
+        <span class="num">01</span>
+        <h4>Стратегия действий</h4>
+        <p>Анализируем ситуацию и предлагаем наиболее эффективный путь решения проблемы.</p>
+      </div>
+      <div class="advantage">
+        <span class="num">02</span>
+        <h4>Правовое обоснование</h4>
+        <p>Готовим обоснование для проведения экспертизы и использования заключения в суде и следствии.</p>
+      </div>
+      <div class="advantage">
+        <span class="num">03</span>
+        <h4>Область применения</h4>
+        <p>Определяем, как именно использовать заключение — в суде, при обжаловании решения госоргана или в переговорах.</p>
+      </div>
+      <div class="advantage">
+        <span class="num">04</span>
+        <h4>Процессуальная чистота</h4>
+        <p>Заключения соответствуют ГПК РФ, УПК РФ, АПК РФ и Федеральному закону № 73-ФЗ.</p>
+      </div>
+      <div class="advantage">
+        <span class="num">05</span>
+        <h4>Сопровождение</h4>
+        <p>Сопровождаем заказчика от формулировки вопросов эксперту до пояснений в суде.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <h2>Отзывы клиентов</h2>
+      <p class="section-lede">Раздел наполняется — ниже пример того, как отзывы будут выглядеть на сайте.</p>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>«Экспертиза договора помогла увидеть риски, которые мы бы не заметили сами. В итоге пересмотрели условия сделки до подписания».</p>
+        <div class="testimonial-author"><strong>—</strong><span>Юридическое лицо, пример отзыва</span></div>
+      </div>
+      <div class="testimonial">
+        <p>«Заключение по ДТП подготовили быстро и подробно, приняли в суде без вопросов».</p>
+        <div class="testimonial-author"><strong>—</strong><span>Частное лицо, пример отзыва</span></div>
+      </div>
+      <div class="testimonial">
+        <p>«Помогли с лингвистической экспертизой по делу о деловой репутации — разложили всё по полочкам».</p>
+        <div class="testimonial-author"><strong>—</strong><span>Юридическое лицо, пример отзыва</span></div>
+      </div>
+    </div>
+    <p class="placeholder-note" style="margin-top:28px; max-width:640px;">Это примерные тексты-заглушки для демонстрации макета — замените их на реальные отзывы клиентов.</p>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container">
+    <h2>Нужна экспертиза или правовая консультация?</h2>
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <a href="contacts.html" class="btn btn-primary" style="background:#14213D;">Написать нам</a>
+      <button class="btn btn-outline-light" style="border-color:#fff;" data-open-call>Заказать звонок</button>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div>
+      <div class="footer-brand">
+        <img src="images/logo-white.png" alt="Фактор права">
+        <strong>ООО Экспертно-правовой центр «Фактор права»</strong>
+      </div>
+      <p>Судебные и досудебные экспертизы, правовое сопровождение и защита интересов в суде и вне суда.</p>
+    </div>
+    <div>
+      <h4>Разделы</h4>
+      <ul>
+        <li><a href="services.html">Экспертизы и услуги</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="reviews.html">Отзывы и партнёры</a></li>
+        <li><a href="contacts.html">Контакты и реквизиты</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Контакты</h4>
+      <ul>
+        <li>+7 (000) 000-00-00</li>
+        <li>info@faktorprava.ru</li>
+        <li>Пн–Пт, 9:00–18:00</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Адрес</h4>
+      <ul>
+        <li>Юридический адрес уточняется — заполните на странице «Контакты»</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 «Фактор права». Все права защищены.</span>
+    <span>Реквизиты ООО — см. страницу «Контакты и реквизиты»</span>
+  </div>
+</footer>
+
+<div class="floating-contact" id="floating-contact">
+  <button class="floating-contact-close" id="floating-contact-close" aria-label="Скрыть форму">✕</button>
+  <h4>Быстрая заявка</h4>
+  <p>Оставьте телефон — перезвоним в течение рабочего дня.</p>
+  <form data-demo-form>
+    <input type="text" name="name" placeholder="Ваше имя" required>
+    <input type="tel" name="phone" placeholder="Телефон" required>
+    <button class="btn btn-seal btn-block" type="submit">Отправить</button>
+    <div class="form-success"></div>
+  </form>
+</div>
+<button class="floating-contact-tab" id="floating-contact-tab">
+  <span class="dot"></span> Оставить заявку
+</button>
+
+<div class="quick-dock">
+  <div class="chat-panel" id="chat-panel">
+    <div class="chat-head">
+      <div><strong>Фактор права</strong><span>Обычно отвечаем в течение часа</span></div>
+      <button class="chat-close" id="chat-close" aria-label="Закрыть чат">✕</button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-bubble">Здравствуйте! Мы — экспертно-правовой центр «Фактор права». Проводим 22 вида экспертиз и правовое сопровождение. Чем можем помочь?</div>
+      <div class="chat-quick">
+        <button type="button" id="chat-ask-btn">Задать вопрос</button>
+        <button type="button" onclick="location.href='services.html'">Виды экспертиз</button>
+        <button type="button" onclick="location.href='contacts.html'">Телефон и адрес</button>
+      </div>
+      <form class="chat-callform form-light" id="chat-callform" data-demo-form>
+        <div class="field"><label for="c-name">Имя</label><input id="c-name" name="name" required></div>
+        <div class="field"><label for="c-phone">Телефон</label><input id="c-phone" name="phone" type="tel" required></div>
+        <div class="field"><label for="c-msg">Вопрос</label><textarea id="c-msg" name="message" rows="3"></textarea></div>
+        <button class="btn btn-primary btn-block" type="submit">Отправить</button>
+        <div class="form-success"></div>
+      </form>
+    </div>
+  </div>
+  <button class="dock-btn" id="chat-toggle" aria-label="Открыть чат с центром «Фактор права»">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a8 8 0 0 1-11.5 7.2L4 20l1.1-4.2A8 8 0 1 1 21 12Z"/></svg>
+  </button>
+</div>
+
+<dialog class="modal" id="call-dialog">
+  <div class="modal-inner">
+    <div class="modal-head">
+      <h3>Заказать звонок</h3>
+      <button class="modal-close" data-close-call aria-label="Закрыть">✕</button>
+    </div>
+    <p class="modal-lede">Оставьте номер — перезвоним в удобное время.</p>
+    <form data-demo-form class="form-light">
+      <div class="field"><label for="m-name">Имя</label><input id="m-name" name="name" required></div>
+      <div class="field"><label for="m-phone">Телефон</label><input id="m-phone" name="phone" type="tel" required></div>
+      <div class="field"><label for="m-time">Удобное время</label><input id="m-time" name="time" placeholder="Например, после 15:00"></div>
+      <button class="btn btn-seal btn-block" type="submit">Заказать звонок</button>
+      <div class="form-success"></div>
+    </form>
+  </div>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
