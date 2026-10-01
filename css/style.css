@@ -109,13 +109,13 @@ p:last-child{ margin-bottom:0; }
 .brand-text strong{ display:block; font-size:1.15rem; letter-spacing:.01em; color: var(--heading); }
 .brand-text span{ display:block; font-family: var(--sans); font-size: .74rem; color: var(--seal-light); }
 
-.main-nav{ display:flex; align-items:center; gap: 26px; }
+.main-nav{ display:flex; align-items:center; gap: 20px; }
 .main-nav a{ color: var(--text-soft); font-size: .92rem; padding: 6px 0; border-bottom: 1px solid transparent; transition: color .15s ease, border-color .15s ease; }
 .main-nav a:hover, .main-nav a[aria-current="page"]{ color: var(--heading); border-color: var(--seal); }
 
-.header-actions{ display:flex; align-items:center; gap: 18px; }
-.header-phone{ color: var(--heading); font-family: var(--serif); font-size: 1.02rem; text-align:right; }
-.header-phone small{ display:block; font-family: var(--sans); font-size:.68rem; color: var(--text-soft); }
+.header-actions{ display:flex; align-items:center; gap: 16px; }
+.header-phone{ color: var(--heading); font-family: var(--serif); font-size: .95rem; text-align:right; white-space: nowrap; }
+.header-phone small{ display:block; font-family: var(--sans); font-size:.68rem; color: var(--text-soft); white-space: nowrap; }
 
 .nav-cta{ display:none; }
 
@@ -191,7 +191,10 @@ section{ padding: 88px 0; }
 .gcard:hover{ transform: translateY(-6px); box-shadow: 0 22px 44px rgba(0,0,0,.35); border-color: var(--seal); }
 .gcard:hover::before{ transform: scaleX(1); }
 .gcard .num{ font-family: var(--serif); color: var(--seal); font-size:1.1rem; display:block; margin-bottom:14px; }
-.gcard .icon{ color: var(--seal); font-size:1.6rem; margin-bottom:6px; }
+.gcard .icon{ color: var(--seal); font-size:1.6rem; margin-bottom:6px; display:flex; align-items:center; }
+.gcard .icon svg{ display:block; }
+.gcard .num-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.gcard .num-row .num{ margin-bottom:0; }
 .gcard h3, .gcard h4{ color: var(--heading); font-size: 1.05rem; margin-bottom: 10px; }
 .gcard p{ color: var(--text-soft); font-size: .92rem; }
 .gcard .go{ margin-top:16px; display:inline-block; font-size: .84rem; color: var(--seal); font-weight:700; }
